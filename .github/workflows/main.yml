@@ -1,12 +1,12 @@
-name: MAIN
+name: Mail
 
 on:
   schedule:
-    - cron: '0 1 1 * *'  # 每月的 1号 01 点运行
+    - cron: '* * * * *'  # 每分钟
   workflow_dispatch:
 
 jobs:
-  ssh-login:
+  mail:
     runs-on: ubuntu-latest
 
     steps:
