@@ -1,4 +1,4 @@
-name: SSH Login
+name: MAIN
 
 on:
   schedule:
@@ -21,12 +21,10 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests imbox sys time unquote
-
+          pip install requests imbox  
 
       - name: Run Python script
         env:
-
           access_key_id: ${{ secrets.access_key_id }}
           secret_access_key: ${{ secrets.secret_access_key }}
           endpoint_url: ${{ secrets.endpoint_url }}
