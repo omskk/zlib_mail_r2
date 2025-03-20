@@ -1,4 +1,4 @@
-name: SSH Login
+name: MAIN
 
 on:
   schedule:
