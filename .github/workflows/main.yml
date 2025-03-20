@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  mail:
+  mail-job:
     runs-on: ubuntu-latest
 
     steps:
