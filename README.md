@@ -56,12 +56,15 @@
 生产环境建议至少设置为 每小时一次（0 * * * *）
 
 ## 📂 文件结构
+```
 zlib_mail_r2/  
 ├── zlib_save_r2.py       # 核心处理脚本  
 ├── .github/              # GitHub Actions 配置目录  
 │   └── workflows/  
 │       └── main.yml      # 自动化工作流配置  
 └── README.md             # 当前文档  
+```
+
 ---
 
 ## 📝 版本日志  
