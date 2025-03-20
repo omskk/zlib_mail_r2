@@ -2,7 +2,7 @@ name: Mail
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # 每5分钟
+    - cron: '*/10 * * * *'  # 每10分钟
   workflow_dispatch:
 
 jobs:
